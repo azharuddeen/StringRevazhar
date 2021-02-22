@@ -1,0 +1,16 @@
+import java.util.*;
+class Sample_String {
+    public static void main(String[] args) {
+        Sample_String string= new Sample_String();
+        string.Remind();
+    }
+    public void Remind()
+    {
+        String sentence = "Java is Program";
+        StringBuffer a= new StringBuffer(sentence);
+        System.out.println("Reverse of String -"+ a.reverse());
+        System.out.println("String Length - " + sentence.length());
+        System.out.println("In Lowercase - " + sentence.toLowerCase());
+        System.out.println("In Uppercase - " + sentence.toUpperCase());
+    }
+}
